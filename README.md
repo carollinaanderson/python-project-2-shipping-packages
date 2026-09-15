@@ -1,4 +1,4 @@
-# Shipping Packages — Python Project
+# shipping packages — python project
 
 > A Python program that **calculates shipping costs** based on package
 > weight and service choice.
