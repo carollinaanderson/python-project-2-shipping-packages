@@ -1,37 +1,33 @@
-# Python_Project2_Shipping_Packages
-This Python program calculates shipping costs for packages based on their weight. It offers three shipping options: ground or drone shipping
+# Shipping Packages — Python Project
 
+> A Python program that **calculates shipping costs** based on package
+> weight and service choice.
 
-Sal's Shipping
-Sal runs the biggest shipping company in the tri-county area, Sal’s Shippers. Sal wants to make sure that every single one of his customers has the best, and most affordable experience shipping their packages.
+## Overview
 
-In this project, you’ll build a program that will take the weight of a package and determine the cheapest way to ship that package using Sal’s Shippers.
+A practical mini project that computes shipping prices for a package
+delivery service: ground, drone, and premium options with weight-based
+pricing — practicing comparisons, conditionals, and arithmetic logic.
 
-Sal’s Shippers has several different options for a customer to ship their package:
+## Repository contents
 
-Ground Shipping, which is a small flat charge plus a rate based on the weight of your package.
-Ground Shipping Premium, which is a much higher flat charge, but you aren’t charged for weight.
-Drone Shipping (new), which has no flat charge, but the rate based on weight is triple the rate of ground shipping.
-Here are the prices:
+- `shipping_packages.py` — the calculator
 
-Ground Shipping
+## Run it
 
-Weight of Package	Price per Pound	Flat Charge
-2 lb or less	$1.50	$20.00
-Over 2 lb but less than or equal to 6 lb	$3.00	$20.00
-Over 6 lb but less than or equal to 10 lb	$4.00	$20.00
-Over 10 lb	$4.75	$20.00
+```bash
+python3 shipping_packages.py
+```
 
-Ground Shipping Premium
+## Tech stack
 
-Flat charge: $125.00
+Python 3
 
-Drone Shipping
+## What this demonstrates
 
-Weight of Package	Price per Pound	Flat Charge
-2 lb or less	$4.50	$0.00
-Over 2 lb but less than or equal to 6 lb	$9.00	$0.00
-Over 6 lb but less than or equal to 10 lb	$12.00	$0.00
-Over 10 lb	$14.25	$0.00
+- Business logic implementation (pricing rules)
+- Conditionals & arithmetic
 
-Write a shipping.py Python program that asks the user for the weight of their package and then tells them which method of shipping is cheapest and how much it will cost to ship their package using Sal’s Shippers.
+## Author
+
+**Carolinna Anderson** — [GitHub profile](https://github.com/carollinaanderson) · [LinkedIn](https://linkedin.com/in/carollinaanderson)
